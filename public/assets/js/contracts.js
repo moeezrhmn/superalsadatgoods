@@ -688,6 +688,14 @@ function ReportUpdate(data, dailyData){
                         <th> Profit </th>
                         <td>${number_format(data.report?.calculations?.contracts?.approved?.profit)} </td>
                     </tr>
+                    <tr>
+                        <th> Expenses </th>
+                        <td>${number_format(data.report?.calculations?.expenses?.amount)} </td>
+                    </tr>
+                    <tr>
+                        <th> Profit - Expenses </th>
+                        <td>${number_format(data.report?.calculations?.contracts?.approved?.profit - data.report?.calculations?.expenses?.amount)} </td>
+                    </tr>
                 </tbody>
             </table>
         </div >
