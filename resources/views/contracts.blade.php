@@ -30,6 +30,19 @@ New Contracts
 
     }
 
+    .table > tbody > tr > td {
+        font-size: 20px;
+        color: #fff;
+        letter-spacing: 1px;
+    }
+
+    @media screen and (max-width:768px){
+        .table > tbody > tr > td {
+             font-size: 15px;
+
+        }
+    }
+
     @media screen and (max-width:768px) {
         :is(#filters) :is(.status, .freightpaid) {
             max-width: 9rem;
@@ -139,6 +152,8 @@ New Contracts
         height: 2px;
         background: #009688;
     }
+
+   
 
  
 </style>
