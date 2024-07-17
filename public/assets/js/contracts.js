@@ -595,7 +595,7 @@ function ReportUpdate(data, dailyData){
         </div>
     </div>
     <div class='row'>
-        <div class='col-6 col-md-3'>
+        <div class='col-6 col-md-2'>
             <table class='table table-dark'>
                 <thead>
                     <tr>
@@ -618,7 +618,7 @@ function ReportUpdate(data, dailyData){
                 </tbody>
             </table>
         </div >
-        <div class='col-6 col-md-3'>
+        <div class='col-6 col-md-2'>
             <table class='table table-dark'>
                 <thead>
                     <tr>
@@ -637,7 +637,7 @@ function ReportUpdate(data, dailyData){
                 </tbody>
             </table>
         </div >
-        <div class='col-12 col-md-3'>
+        <div class='col-12 col-md-4'>
             <table class='table table-dark'>
                 <thead>
                     <tr>
@@ -664,7 +664,7 @@ function ReportUpdate(data, dailyData){
                 </tbody>
             </table>
         </div >
-        <div class='col-12 col-md-3'>
+        <div class='col-12 col-md-4'>
             <table class='table table-dark'>
                 <thead>
                     <tr>
@@ -694,7 +694,7 @@ function ReportUpdate(data, dailyData){
                     </tr>
                     <tr>
                         <th> Profit - Expenses </th>
-                        <td>${number_format(data.report?.calculations?.contracts?.approved?.profit - data.report?.calculations?.expenses?.amount)} </td>
+                        <td>${number_format(data.report?.calculations?.contracts?.approved?.profit)} - ${number_format(data.report?.calculations?.expenses?.amount)} = ${number_format(data.report?.calculations?.contracts?.approved?.profit - data.report?.calculations?.expenses?.amount)} </td>
                     </tr>
                 </tbody>
             </table>
@@ -722,7 +722,7 @@ function ReportUpdate(data, dailyData){
             </div>
         </div>
         <div class='row'>
-        <div class='col-6 col-md-3'>
+        <div class='col-6 col-md-2'>
         <table class='table table-dark'>
             <thead>
                 <tr>
@@ -745,7 +745,7 @@ function ReportUpdate(data, dailyData){
             </tbody>
         </table>
     </div >
-    <div class='col-6 col-md-3'>
+    <div class='col-6 col-md-2'>
         <table class='table table-dark'>
             <thead>
                 <tr>
@@ -764,7 +764,7 @@ function ReportUpdate(data, dailyData){
             </tbody>
         </table>
     </div >
-    <div class='col-12 col-md-3'>
+    <div class='col-12 col-md-4'>
         <table class='table table-dark'>
             <thead>
                 <tr>
@@ -791,7 +791,7 @@ function ReportUpdate(data, dailyData){
             </tbody>
         </table>
     </div >
-    <div class='col-12 col-md-3'>
+    <div class='col-12 col-md-4'>
         <table class='table table-dark'>
             <thead>
                 <tr>
